@@ -12,7 +12,7 @@ int pop()
     return stack[top--];
 }
 
-int main()
+void main()
 {
     char px[20];
     int n1,n2,n3,num,i=0;
@@ -57,5 +57,4 @@ int main()
         i++;
     }
     printf("\nThe result of the expression %s  =  %d\n\n",px,pop());
-    return 0;
 }
