@@ -31,28 +31,31 @@ void main()
             n2 = pop();
             switch(px[i])
             {
-            case '+':
-            {
-                n3 = n1 + n2;
-                break;
-            }
-            case '-':
-            {
-                n3 = n2 - n1;
-                break;
-            }
-            case '*':
-            {
-                n3 = n1 * n2;
-                break;
-            }
-            case '/':
-            {
-                n3 = n2 / n1;
-                break;
-            }
+                case '+':
+                {
+                    n3 = n1 + n2;
+                    break;
+                }
+                    
+                case '-':
+                {
+                    n3 = n2 - n1;
+                    break;
+                }
+                    
+                case '*':
+                {
+                    n3 = n1 * n2;
+                    break;
+                }
+                    
+                case '/':
+                {
+                    n3 = n2 / n1;
+                    break;
+                }
            }
-            push(n3);
+           push(n3);
         }
         i++;
     }
